@@ -12,12 +12,6 @@ This repository contains the necessary tools to run a Jitsi Meet stack on [Docke
 
 The installation manual is available [here](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker).
 
-### Kubernetes
-
-If you plan to install the jitsi-meet stack on a Kubernetes cluster you can find tools and tutorials in the project [Jitsi on Kubernetes](https://github.com/jitsi-contrib/jitsi-kubernetes).
-
-## TODO
-
-* Support container replicas (where applicable).
-* TURN server.
-
+### Modified
+The jitsi-repo folder will be added in the app/ folder inside the web container. So, that later a source modified jitsi-meet component could be deployed instead of the default installation.<br/>
+Also, made changes .env in current deployment accessible to outside network.
