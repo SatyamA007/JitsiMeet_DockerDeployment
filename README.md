@@ -15,3 +15,4 @@ The installation manual is available [here](https://jitsi.github.io/handbook/doc
 ### Modified
 The jitsi-repo folder will be added in the app/ folder inside the web container. So, that later a source modified jitsi-meet component could be deployed instead of the default installation.<br/>
 Also, made changes .env in current deployment accessible to outside network.
+Note, that the repo folder should be renamed to docker-jitsi-meet-stable-7210-2 for outside access.
